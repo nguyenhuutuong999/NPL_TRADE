@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html,body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    
+    top: 0;
+	display: flex;
+    background-color: #0F1440;
+    //justify-content: center;
+    align-content: center;
+    align-items: center;
+    //justify-content: space-around;
+    width: 100%;
+   // position: fixed;
+}
+#header #logo{
+    margin: 20px 80px;
+}
+#header #nav-bar{
+    margin-left: 35%;
+    
+}
+#nav-bar .bnt button{
+    color: white;
+    height: 45px;
+    width: 170px;
+    border: 1px solid white;
+    background-color: #0F1440;
+    border-radius: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+#nav-bar .bnt button:hover{
+    color: #0F1440;
+    background-color: white;
+    
+}
+#header #lang-bar{
+    position: absolute;
+    margin-left: 92%;
+}
+#new{
+    color: #0F1440;
+}
+#new p:first-child{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 50px 0 10px 70px;
+    border-bottom: 2px solid #0F1440;
+}
+#new #nav-bar-bnt{
+    margin-left: 75px;
+    margin-top: 30px;
+    
+}
+#new #nav-bar-bnt button{
+    width: 130px;
+    height: 22px;
+    color: #0F1440;
+    font-weight: 600;
+    margin-left: -6px;
+    padding: 0;
+    font-size: 12px;
+    border: 1.5px solid #0F1440;
+    background: white;
+}
+#new #nav-bar-bnt .active{
+    color: white;
+    background: #0F1440;
+}
+
+.section-box{
+    
+    margin-left: 70px;
+    display: block;
+}
+#what-new, #system-update, #campaign{
+    display: none;
+}
+.section{
+    margin: 10px 0;
+}
+#box{
+    position: fixed;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+    background: #367AA4;
+    border: 1px solid #367AA4;
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 85%;
+    
+}
+#box-extends{
+    position: fixed;
+    margin-left: 79.2%;
+    width: 250px;
+    border: 0.5px solid #E4E6E8;
+    border-bottom: none;
+    bottom: 0px;    
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+#box-extends #header-box{
+    border-radius: 5px 5px 0 0;
+    background: #367AA4;
+    border: 1px solid #367AA4;
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    height: 40px;
+    display: flex;    
+    align-items: center;
+}
+#box-extends #header-box #close{
+    margin-left: 80px;
+    background: #367AA4;
+    border: 0;
+    display: block;
+}
+#box-extends #header-box #onl{
+    margin-left: 10px;
+    background: #367AA4;
+    border: 0;
+}
+#box-extends #form{
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 0.5px solid #E4E6E8;
+    width: 220px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    background: white;
+    
+}
+#box-extends #form input{
+    border: 2.5px solid #C7C8C9;
+    border-radius: 6px;
+    width: 200px;
+    margin: 5px;
+    height: 30px;
+    text-align: left;
+    background: white;
+}
+#box-extends #submit{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background: #367AA4;
+    border : 0px solid ;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    
+}
+#box-extends #submit:hover{
+    background: #A1D3F1;
+    color: #367AA4;   
+}

@@ -1,0 +1,135 @@
+    <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hashpower Futures</title>
+<link href="./style_NPL.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href = "../img/logo.png" />
+<script src="./tab.js"></script>
+</head>
+
+<body>
+    <script>
+        
+    </script>
+<div id="page-wrapper">
+  <header id="header">
+    <div id = "logo"> <img src="../img/logo.png" alt="Hashpower Futures"/> </div>
+    <div id="nav-bar">
+    	<a class="bnt" href="../login_Tuong/login.html"><button id = "sign-in">Sign In</button></a>
+		<a class="bnt" href="../create_account_Tuong/NPL_logUp.html"><button id = "create-acc">Create Account</button></a>
+	</div>
+    <div id="lang-bar"><img src="../img/lang.png" alt="hamburger-languages"/></div>
+  </header>
+  <div id="new">
+      <p>NEWS</p>
+      <div id="nav-bar-bnt">
+          <button class = "bnt-nav active" id = "what-new-bnt" type="button" onClick="myFunction1()">WHAT'S NEW ?</button>
+          <button class = "bnt-nav" id = "system-update-bnt" type="button" onClick="myFunction2()">SYSTEM UPDATE</button>
+          <button class = "bnt-nav" id = "campaign-bnt" type="button" onClick="myFunction3()">CAMPAIGN</button>
+           
+      </div>
+      <script>
+        var header = document.getElementById("nav-bar-bnt");
+var btns = header.getElementsByClassName("bnt-nav");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+      </script>
+      <div class = "section-box" id = "what-new" style="display: block">
+          <div class="section">
+              <h3>NOTIFICATION FOR BUYERS</h3>
+              <p>MAR 15 2019</p>
+          </div>
+           <div class="section">
+              <h3>NICEHASH MINER LEGACY 1.9.0.19 IS OUT NOW!</h3>
+              <p>MAR 18 2019</p>
+          </div>
+           <div class="section">
+              <h3>NEW NICEHASH MINER LEGACY AND SUPPORT FOR CRYPTONIGHTR!</h3>
+              <p>MAR 10 2019</p>
+          </div>
+           <div class="section">
+              <h3>NICEHASH MINER LEGACY</h3>
+              <p>MAR 08 2019</p>
+          </div>
+           <div class="section">
+              <h3>FOURTEENTH REIMBURSEMENT OF THE REPAYMENT PROGRAM</h3>
+              <p>MAR 05 2019</p>
+          </div>
+           <div class="section">
+              <h3>NHMV2 DISCONTINUED - NHML IS TWICE AS PROFITABLE!</h3>
+              <p>MAR 02 2019</p>
+          </div>
+      </div>
+      <div class = "section-box" id = "system-update">
+          <div class="section">
+              <h3>MONERO(XMR)IS EXPERIENCING A FULLNODE UPGRADE</h3>
+              <p>MAR 18 2019</p>
+          </div>
+           <div class="section">
+              <h3>TORN(TRX) FULLNODE UPGRADE HAS BEEN COMPLETED</h3>
+              <p>MAR 15 2019</p>
+          </div>
+           <div class="section">
+              <h3>DASH SYSTEM UPGRADE</h3>
+              <p>MAR 10 2019</p>
+          </div>
+           <div class="section">
+              <h3>MINIMUM TRADING AMOUNT LIMIT LOWERED</h3>
+              <p>MAR 08 2019</p>
+          </div>
+           <div class="section">
+              <h3>TSUD SYSTEM MAINTENANCE COMPLETED</h3>
+              <p>MAR 05 2019</p>
+          </div>    
+      </div>
+      <div class = "section-box" id = "campaign">
+          <div class="section">
+              <h3>NPL IS GIVING AWAY FREE MCO TOKENS</h3>
+              <p>MAR 18 2019</p>
+          </div>
+           <div class="section">
+              <h3>SURPRISE AIRDROP MISSION: MONERO & ZCASH</h3>
+              <p>MAR 15 2019</p>
+          </div>
+           <div class="section">
+              <h3>BLOCKCHAIN LIVE LONDON:DEXON & NPL</h3>
+              <p>MAR 10 2019</p>
+          </div>
+           <div class="section">
+              <h3>SURPRISE KICK MISSION IS LIVE !</h3>
+              <p>MAR 08 2019</p>
+          </div>   
+      </div> 
+  </div>
+</div>
+<div id = "box" onClick="myFunction5()">
+    <p>We are online</p>
+    <button id = "onl" style="margin-left : 30px; background: #367AA4; border: 0;"><img src="../img/onl.png" alt="onl"/></button>
+</div>
+<div id = "box-extends" style="display: none">
+    <div id = "header-box" onClick="myFunction4()">
+        <p>We are online</p>
+        <button id = "onl"><img src="../img/onl.png" alt="onl"/></button>
+        <button id = "close" ><img src="../img/close.png" alt="close" onClick="myFunction4()"/></button>
+    </div>
+    
+    <div id = "form">
+      <input type="text" value="" placeholder="  *Name"/>
+      <input type="email" value="" placeholder="  *Email"/>
+      <textarea style="width: 199px; height: 50px;border: 2.5px solid #C7C8C9;
+    border-radius: 6px;
+    margin: 5px;
+    background: white;"  value="0" placeholder=" *Message"></textarea>
+      <button id="submit" type="submit">Submit</button>
+    </div>
+  
+</div>
+</body>
+
+</html>

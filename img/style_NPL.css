@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    top: 0;
+    display: flex;
+    background-color: #0F1440;
+ //justify-content: center;
+    align-content: center;
+    align-items: center;
+ //justify-content: space-around;
+    width: 100%;
+ // position: fixed;
+}
+#header #logo {
+    margin: 20px 80px;
+}
+#header #nav-bar {
+    margin-left: 35%;
+}
+#nav-bar .bnt button {
+    color: white;
+    height: 45px;
+    width: 170px;
+    border: 1px solid white;
+    background-color: #0F1440;
+    border-radius: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#nav-bar .bnt button:hover {
+    color: #0F1440;
+    background-color: white;
+}
+#header #lang-bar {
+    position: absolute;
+    margin-left: 92%;
+}
+#sign-up {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sign-up h3:first-child {
+    height: 59px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Calibri;
+    font-size: 48px;
+    margin-top: 50px;
+}
+#sign-up #form {
+    margin: 50px;
+}
+#sign-up #form-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sign-up #form-area .form-input {
+    width: 564px;
+    height: 50px;
+    margin: 10px 0;
+    background: #FFFFFF;
+    border: 1px solid #0F1440;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+#sign-up #note {
+    width: 565px;
+    height: 120px;
+    background: #FFF3E8;
+    border: 1px solid #F2994A;
+    box-sizing: border-box;
+}
+#note p {
+    width: 90%;
+    height: 65px;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #0F1440;
+}
+#note h4 {
+    width: 90%;
+    height: 22px;
+    margin: 10px 40px;
+    font-size: 18px;
+ //line-height: normal;
+    text-transform: capitalize;
+    color: #F2994A;
+}
+#form #signUp-btn {
+    width: 40%;
+    height: 50px;
+    background: #0F1440;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#privacy {
+    position: flex;
+    flex-direction: row;
+    width: 500px;
+}
+#privacy #checkBox {
+    width: 20.94px;
+    height: 19.81px;
+    margin-top: 20px;
+}
+#privacy p {
+    position: absolute;
+    width: 592px;
+    height: 50px;
+    left: 427px;
+    top: 763px;
+    font-family: Calibri;
+    font-size: 18px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#log-in {
+    width: 565px;
+    height: 50px;
+    background: rgba(23, 193, 206, 0.8);
+    margin: 10px 0;
+}
+#log-in h4 {
+    font-family: Calibri;
+    font-size: 20px;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 220px;
+    height: 25px;
+    left: 92px;
+    top: 13px;
+    position: relative;
+}
+#log-in #bnt-login {
+    position: absolute;
+    width: 95px;
+    height: 32px;
+    left: 805px;
+    top: 805px;
+    font-family: Calibri;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+#sign-in-with{
+    position: flex;
+    flex-direction: column;
+}
+#sign-in-with h4:first-child{
+    position: absolute;
+    left: 285px;
+    width: 100%;
+    height: 22px;
+    font-family: Calibri;
+    font-size: 18px;
+    line-height: normal;
+    color: #0F1440;
+    text-align: left;
+}
+#sign-in-with #logo-link{
+    top: 10px;
+}

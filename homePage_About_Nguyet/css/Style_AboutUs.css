@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#div1{
+    box-sizing: border-box;
+    height: 550px;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: auto;
+    width:100%;
+    perspective-origin: 287.68px 283.84px;
+    transform-origin: 287.68px 283.84px;
+    font: normal normal 400 normal 14px / normal Calibri, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+#Header {
+    display: flex;
+    height: 130px;
+    max-width: 100%;
+    top: -10px;
+    width: 100%;
+    align-items: center;
+    background: rgb(15, 20, 64);
+    margin: 0px -8px 0px 0px;
+    padding: 20px 60px;
+    box-sizing: border-box;
+
+}/*#header*/
+
+#A{
+    box-sizing: border-box;
+    color:#0F1440;
+    display: flex;
+    height: 120px;
+    width: 1440px;
+    margin: 0px 70px 0px 20px;
+    align-items: center;
+    border: 0px;
+    flex: 1 1 0%;
+    justify-content: flex-end ;
+}/*#A*/
+#logo {
+    height: 77.8px;
+    min-height: auto;
+    min-width: auto;
+    width: 152px;
+    perspective-origin: 76px 38.9px;
+    transform-origin: 76px 38.9px;
+    font: normal normal 400 normal 16px / normal "Open Sans", sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+ #A_2{
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    height: 39px;
+    text-align: center;
+    text-decoration: none solid;
+    width: 199px;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px 50px 50px 50px;
+    font: 18px / 39px Calibri;
+    margin: 0px 20px 0px 0px;
+}/*#A2*/
+ 
+#A_3 {
+    box-sizing: border-box;
+    color:#0F1440;
+    display: flex;
+    height: 39x;
+    text-align: center;
+    text-decoration: none solid;
+    width: 199px;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px 50px 50px 50px;
+    font: normal normal 700 normal 18px / 39px Calibri;
+    margin: 0px 20px 0px 20px;
+}/*#A2*/
+#icon {
+    bottom: 97% ;
+    right: 3%;
+    top: 15%;
+    width: 44px;
+    transform-origin: 22px 19.9px;
+    font: normal normal 400 normal 16px  sans-serif;
+    margin:0px 20px 0px 0px;
+   }
+#B{
+    box-sizing: border-box;
+    display: flex;
+    height: 570px;
+    max-width: 100%;
+    min-height: 409.4px;
+    width: 100%;
+    flex-flow: column nowrap;
+}
+#B1{
+    bottom: 0px;
+    box-sizing: border-box;
+    color:  #0F1440;
+    display: flex;
+    height: 790px;
+    left: 0px;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    background: url("../Source/Group 29.png") no-repeat scroll 50% 50% / cover padding-box border-box;
+    flex: 1 1 0%;
+    flex-flow: column wrap;
+    padding: 60px 75px 75px 60px;
+}
+#B2{
+    height: 74px;
+    width: 100%;
+    color: #0F1440;
+    border-bottom: 2px solid  #0F1440;
+    font: Calibri;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0px 0px 10px;
+}
+#B3, #B4{
+    box-sizing: border-box;
+    color:  #0F1440;
+    display: block;
+    height: 99.6px;
+    min-height: auto;
+    min-width: auto;
+    width: 100%;
+    z-index: 1;
+    font-size: 24px;
+}
+#FOOTER {
+    color:white;
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background: #0F1440;
+    border: 0px none #ffffff;
+    font: normal normal 400 normal 16px / normal "Open Sans", sans-serif;
+    list-style: none outside none;
+    margin:0 0 0 0;
+}
+
+
+#Section8 {
+    color: white;
+    display: flex;
+    height: 73px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid white;
+    width: 152px;
+    flex-flow: column nowrap;
+    font: normal normal 400 normal 16px / normal "Open Sans", sans-serif;
+    margin: 50px;
+    
+}
+
+
+
+#IMG_1 {
+    color: white;
+    display: block;
+    height: 73px;
+    min-height: auto;
+    min-width: auto;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / normal "Open Sans", sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px 30px;
+}
+
+
+
+#E {
+    color: white;
+    height: 16px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid white;
+    border: 0px none white;
+    font: normal normal 100 normal 12px / normal "Open Sans", sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+}
+
+
+#E1 {
+    bottom: 0px;
+    color: white;
+    display: flex;
+    height: 205.775px;
+    left: 0px;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid white;
+    top: 0px;
+    width: 759.6px;
+    border: 0px none white;
+    font: normal normal 400 normal 16px / normal "Open Sans", sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px 0px 250px;
+    padding: 0px;
+}
+
+
+
+#E11, #E12, #E13, #E14 {
+    color: white;
+    height: 175.775px;
+    min-height: auto;
+    min-width: auto;
+    width: 189.9px;
+    margin: 30px 0px 0px;
+}
+
+
+#E111, #E121, #E131, #E141 {
+    color: rgba(255, 255, 255, 0.5);;
+    height: 20px;
+    text-align: left;
+    width: 189.9px;
+    margin: 0px 0px 10px;
+}
+
+
+#List1, #List2, #List3 {
+    color: white;
+    height: 86.4px;
+    text-align: left;
+    width: 189.9px;
+    font-family: Calibri;
+    border: 0px none white;
+    margin: 0px;
+    outline: white none 0px;
+    padding: 0px;
+}
+
+
+
+#LI_11, #LI_12,#LI_13, #LI_21, #LI_23, #LI_197, #LI_203, #LI_205 {
+    color: white;
+    height: 21.6px;
+    width: 189.9px;
+    font: normal normal 400 normal 16px / normal "Open Sans", sans-serif;
+    list-style: none outside none;
+}
+
+#LI_184, #LI_21, #LI_196, #LI_204 {
+    color: white;
+    height: 21.6px;
+    width: 189.9px;
+    font: normal normal 400 normal 16px / normal "Open Sans", sans-serif;
+    list-style: none outside none;
+}
+
+
+#LI_22, #LI_198 {
+    color: white;
+    height: 21.6px;
+    text-decoration: none solid white;
+    width: 189.9px;
+    border: 0px none white;
+    font: normal normal 400 normal 16px / normal "Open Sans", sans-serif;
+    list-style: none outside none;
+    outline: rgb(255, 255, 255) none 0px;
+}
